@@ -1,0 +1,224 @@
+
+.dropdown-content1 a:hover {background-color: #f1f1f1}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.7;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown1:hover .dropbtn1 {
+    background-color: red;
+}
+
+li.contact{
+    background-color: red;
+}
+
+
+li.dropdown1 {
+    display: inline-block;
+}
+
+.dropdown-Logout {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 174px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown-Logout a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.dropdown-Logout a:hover {background-color: lightgray}
+
+
+.dropdown1:hover .dropdown-Logout {
+    display: block;
+}
+
+
+//////////
+li.contact{
+    background-color: red;
+}
+
+
+li.dropdown1 {
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 174px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content1 a:hover {background-color: lightgray}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+/////////
+
+///////////////////////////////////////////////////DROPBUTTON FIX/////////////////////////////////////////////////////////////////
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 1.0;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 158px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: cyan}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+div.container {
+    width: 100%;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: teal;
+    clear: left;
+    text-align: center;
+    opacity: 0.85;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+
+    
+    body {
+    
+    background-image:  url("../imagers/bwooden.jpg");
+    background-repeat: no-repeat;
+    background-position:0px 0px;
+        color:white;
+        background-attachment: fixed;
+    
+    }
+
+
+    
+.contacts{
+    background-color: teal;
+    opacity: 0.7;
+    width: auto;
+}
+.cinfo{
+    width: auto;
+    background-color: teal;
+    
+    
+}
+.cinfo1{
+    width: auto;
+    background-color: teal;
+   
+}
