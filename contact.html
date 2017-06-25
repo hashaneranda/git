@@ -1,68 +1,164 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    
-    <title>LMS-Contact Us</title>
-    <link rel="icon" href="../imagers/logo.png" type="image/png">
-<link rel="stylesheet" href="contact%20css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <title>LMS |NSBM</title>
 </head>
-<body >
-    
 
-<div class="container">
-
-<header>
-   <h1>Learning Management System</h1>
-    <hr>
-    <marquee behavior="alternate">Learning Management System</marquee>
-    <hr>
-</header>
-    
-       <ul>
-  <li><a href="../home/home.html">Home</a></li>
-  <li class="dropdown1">
-      <a href="../computing/computing.html" class="dropbtn1">Faculty of Computing</a>
-    <div class="dropdown-content1">
-        <a href="../computing/cyear1/cyear1.html"><center>year 1</center></a>
-      <a href="../computing/cyear2/cyear2.html"><center>year 2</center></a>
-      <a href="../computing/cyear3/cyear3.html"><center>year 3</center></a>
-      <a href="../computing/cyear4/cyear4.html"><center>year 4</center></a>
+<body>
+    <div class="topNav">
+        <div class="container">
+            <ul class="topLogin">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </div>
     </div>
-  <li class="dropdown">
-    <a href="../business/business.html" class="dropbtn">Faculty of Business</a>
-    <div class="dropdown-content">
-      <a href="../business/byear1/byear1.html"><center>year 1</center></a>
-      <a href="../business/byear2/byear2.html"><center>year 2</center></a>
-      <a href="../business/byear3/byear3.html"><center>year 3</center></a>
-      <a href="../business/byear4/byear4.html"><center>year 4</center></a>
-    </div>
-  <li><a href="../Clubs & Societies/Clubs & Societies.html">Clubs & Societies</a></li>
-  <li><a href="../The newsLetter/The newsLetter.html">News Letter</a></li>
-  <li class="contact"><a href="contact.html">Contact Us</a></li>
-  <li class="Logout"><a href="../login/login111.html" >LOG OUT</a></li>
-  </li>
-</ul>
-    
-    <br><br><br><br><br>
-<div class="contacts">
-    <div class="cinfo">
-    <h3>School Of Business</h3>
-    <p>NSBM Green University Town<br>Mahenwaththa, Pitipana,<br>Homagama<br>Sri Lanka<br><br> Tel: +94(11)544 5100<br>Fax:+94(11)544 5009 </p></div>
-    <div class="cinfo1">
-    <h3>School Of Computing</h3>
-    <p>NSBM Green University Town<br>Mahenwaththa, Pitipana,<br>Homagama<br>Sri Lanka<br><br> Tel: +94(11)544 6000 </p></div>
-    
-    
-    
-</div>
-    
-    
-    
-   
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
-<footer>© 2017 Learning Management System - All Rights Reserved<br>NSBM Green University Town<br></footer>
 
+    <nav>
+        <div class="container">
+            <div class="header">
+                <img src="./imgs/nsbm-green-uni-logo.png" alt="nsbm logo">
+            </div>
+
+            <label for="show-menu" class="show-menu">Show Menu</label>
+            <input type="checkbox" id="show-menu" role="button">
+
+
+            <ul class="navbar" id="menu">
+                <li class="current"><a href="home.html#">Home</a></li>
+                <li><a href="home.html#courses">Courses</a>
+                    <ul class="hiddenNav">
+                        <li><a href="SOC.html">School of Computing</a></li>
+                        <li><a href="SOB.html">School of Business</a></li>
+                        <li><a href="SOE.html">School of Engineering</a></li>
+                    </ul>
+                </li>
+                <li><a href="home.html#events">Events</a></li>
+                <li><a href="home.html#about">About NSBM</a></li>
+                <li><a href="home.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="faculty container">
+        <div class="heading">
+            <h1>School Of Busniness</h1>
+        </div>
+        <div class="navOrder">
+
+        </div>
+        <h3 align="center">Sub Categories</h3>
+        <input id="toggle0" type="checkbox">
+        <label id="pgd" for="toggle0">PGD</label>
+        <div id="expand0">
+            <section>
+                   <a><p>PGD IN BUSINESS MANAGEMENT</p></a>
+                   <a><p>PGD IN HUMAN RESOURSE MANAGEMENT</p></a>
+            </section></div>
+            
+            <input id="toggle1" type="checkbox">
+        <label id="ucd" for="toggle1">UCD</label>
+        <div id="expand1">
+            <section>
+                   <a><p>Stage 2</p></a>
+                   <a><p>Stage 3</p></a>
+            </section> </div>
+            
+            <input id="toggle2" type="checkbox">
+        <label id="ugc" for="toggle2">UGC</label>
+        <div id="expand2">
+            <section>
+                   <a><p>Year 1</p></a>
+                   <a><p>Year 2</p></a>
+                   <a><p>Final Two Years</p></a>
+                   <a><p>Examination Time Table</p></a>
+            </section>
+            </div> 
+            
+            
+            <input id="toggle3" type="checkbox">
+        <label id="mba" for="toggle3">MBA</label>
+        <div id="expand3">
+            <section>
+                   <a><p>MBA Programe 2017</p></a>
+            </section>
+            </div>
+            
+              <input id="toggle4" type="checkbox">
+        <label id="foundation" for="toggle4">FOUNDATION</label>
+        <div id="expand4">
+            <section>
+                   <a><p>STAGE 1</p></a>
+                   <a><p>STAGE 2</p></a>
+                   <a><p>STAGE 3</p></a>
+            </section></div>
+            
+              <input id="toggle5" type="checkbox">
+        <label id="ply" for="toggle5">PLYMOUTH</label>
+        <div id="expand5">
+            <section>
+                   <a><p>Year 1 Semester 1</p></a>
+                   <a><p>Year 1 Semester 2</p></a>
+            </section></div>
+            
+              <input id="toggle6" type="checkbox">
+        <label id="intdsgn" for="toggle6">INTERIOR DESIGN</label>
+        <div id="expand6">
+            <section>
+                   <a><p>Year 1</p></a>
+                   <a><p>Year 2</p></a>
+                   <a><p>Year 3</p></a>
+            </section></div>
+            
+              <input id="toggle7" type="checkbox">
+        <label id="cp" for="toggle7">CERTIFICATE PROGRAMME</label>
+        <div id="expand7">
+            <section>
+                   <a><p>Computer Applications</p></a>
+                   <a><p>-Personal and Managerial Effectiveness</p></a>
+                   <a><p>Fundamental of PM</p></a>
+                   <a><p>Organizational behaviour</p></a>
+            </section></div>
+            
+            <input id="toggle8" type="checkbox">
+        <label id="cfyfs" for="toggle8">Common First Year First Semester</label>
+        <div id="expand8">
+            <section>
+                   
+                   <a><p>Business/Organizational Communication</p></a>
+                   <a><p>CREST/Personal Development</p></a>
+                   <a><p>Economics</p></a>
+                   <a><p>Financial Accounting/Principles of accounting</p></a>
+                   <a><p>Management Process/World of business</p></a>
+            </section>
+            </div>
+    </section>
+       
+    <footer>
+        <p>NSBM LMS , Copyright &copy; 2017</p>
+    </footer>
+
+
+     
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+    <script src="./js/main.js"></script>
 
 
 </body>
+
 </html>
